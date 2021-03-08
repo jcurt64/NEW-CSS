@@ -390,13 +390,19 @@ function saveMessage1(mailNewsLetter) {
 document.querySelector('.right-menu').addEventListener(
 'click', () => document.querySelector('.navigation__item').classList.toggle('show'));
 
+// document.querySelector('.right-menu').addEventListener(
+//     'click', () => document.querySelector('body').classList.remove('.right-menu'));
 
-window.addEventListener('click', outsideclick);
+// body.addEventListener('click', outsideclick);
+// function outsideclick() {
+//     document.querySelector('.right-menu').classList.remove('show');
+// }
 
-function outsideclick(e) {
-    if(e.target == ('.right-menu')) {
-        ('.right-menu').style.display = 'none';
-    } 
-}
+// window.addEventListener('click', outsideclick);
+// function outsideclick(e) {
+//     if(e.target == ('.right-menu')) {
+//         ('.right-menu').style.display = 'none';
+//     } 
+// }
 // ---------- FIN ANIMATION RIGHT MENU ----------------
     

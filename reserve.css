@@ -3819,188 +3819,6 @@ height: 32px;
         left: 430px;
     }
     .donnees-personnelles {
-        top: 360px;
-        left: 930px;
-    }
-    .securite-données {
-        top: 515px;
-        left: 1015px;
-    }
-    .information-personne {
-        top: 805px;
-        left: 558px;
-    }
-    .documentation {
-        top: 670px;
-        left: 350px;
-    }
-    #navigation__menu {
-        justify-content: right;
-        margin-top: 60px;
-    }
-    .navigation__logo {
-        /* flex-basis: 30%; */
-        margin-left: 23%;
-    }
-    .navigation__item {
-        margin-right: -2%;
-    }
-    .menu-link {
-        /* width: 180px; */
-    }
-
-    .title__majelink {
-        margin:10% 0 0 26%; 
-    }
-    .majelink__banner {
-        margin-bottom: 70px; 
-    }
-    .modal {
-        bottom : 3%;
-        width: 35%;
-        height: 20vh;
-    }
-    .contact-intro {
-        position: relative;
-       left: 50%;
-       transform: trnaslate(-50%);
-        width: 1200px;
-        margin-bottom: 20px;
-    }
-    .intro-form {
-        left: 84%;
-    }
-    .quest1, .quest2, .quest3 {
-        left: 30%;  
-    }
-    .direction-rgpd1 {
-        left: 55%;
-    }
-    .direction-rgpd2 {
-        left: 45%;
-    }
-    .direction-rgpd3 {
-        left: 51%;
-    }
-
-    .wave {
-        background: url('/images/wave-large.svg');
-        background-size: 2000px 150px;
-    }
-    .wave1 {
-        background: url('/images/wave1-large.svg');
-        background-size: 2000px 150px;
-    }
-    .wave2 {
-        background: url('/images/wave2-large.svg');
-        background-size: 2000px 150px;
-    }
-    .wave3 {
-        background: url('/images/wave3-large.svg');
-        background-size:2000px 150px;
-    }
-    @keyframes waveAnimate {
-    0% {
-        background-position-x: 0%;
-    }
-    50% {
-        background-position-x: 50%;
-    }
-    0% {
-        background-position-x: 100%;
-    }
-    }
-    @keyframes waveAnimate1 {
-        0% {
-            background-position-x: 0%;
-        }
-        50% {
-            background-position-x: 50%;
-        }
-        0% {
-            background-position-x: -100%;
-        }
-        }
-@keyframes waveAnimate2 {
-    0% {
-    background-position-x: 0%;
-    }
-    50% {
-    background-position-x: 50%;
-    }
-    0% {
-   background-position-x: -100%;
-        }
-}
-@keyframes waveAnimate3 {
-  0% {
-    background-position-x: 0%;
-    }
-50% {
-    background-position-x: 50%;
-    }
-0% {
-    background-position-x: -100%;
-        }
-}
-
-    .contGlobal {
-        position: relative;
-        right: 11%;
-        width: 1200px;
-        height: 690px;    
-    }
-    .panneauDroit {
-       /* width: 60vh; */
-    }
-    .field {
-        width: 593px; 
-    }
-    .lien-politique {
-       margin-left: 150px;
-    }
-    .faq-box {
-        width: 370px;
-        height: auto;
-    }
-    #img-newsletter {
-        width: 1200px;
-        border-top-radius: 10px;
-    }
-    .website {
-        padding-right: 350px;
-    }
-    .rights {
-        padding-right: 580px;
-    }
-}
-
-/* ---------- 1281PX ------------- */
-
-@media screen and (min-width: 1281px) {
-    .top-container {
-        background-color: rgb(10, 45, 114);
-        background-image: url('/images/majelink-home.svg')
-        no-repeat center right/cover;
-    }
-    .present__majelink {
-    position: relative;
-    top: 7%;
-    }
-    .rgpd-image-mjlk {
-        position: relative;
-        top: 10%;
-        left: 8%;
-        background: url('/images/majelink-home.svg')
-        no-repeat center right/cover;
-        width: 950px;
-        height: 830px;
-    }
-    .homme-cle {
-        top: 27%;
-        left: 430px;
-    }
-    .donnees-personnelles {
         top: 275px;
         left: 840px;
     }
@@ -4159,7 +3977,9 @@ height: 32px;
         padding-right: 10px;
     }
 }
-/* ---------- 1280 ----------- */
+
+/* ---------- 1280PX ------------- */
+
 
 @media screen and (max-width: 1280px) {
     .top-container {
@@ -4176,38 +3996,30 @@ height: 32px;
 /* -------- 1000PX --------- */
 
 @media screen and (max-width: 1000px) {
-    .contGlobal {
-        flex-direction: column;
-        min-height: 100vh;
-        width: 100vw!important;
-        align-items: center;
+    .top-container {
+        background: url('/images/majelink-home.svg')
+        no-repeat center left/cover;  
     }
-    .panneauDroit {
-        display: none;
-    }
-    .panneauGauche {
-        width: 70vw!important;
-        padding: 25px;
-    }
+
 }
+
+/* ---------- 700PX ------------ */
 
 @media screen and (max-width: 700px) {
-    .panneauGauche {
-        width: 80vw!important;
-    } 
-    .formBloc .formGroup .buttonSub {
-        margin: 0 auto;
-    }  
-    .mdpPerdu {
-        text-align: center;
-    }  
+    .top-container {
+        background: url('/images/MJLK-img-375.svg')
+    no-repeat center left/cover; 
+    }
 }
 
-@media screen and (max-width: 400px) {
-    .panneauGauche {
-        width: 100vw!important;
-    } 
-    
+/* -------- 411px -----------*/
+
+@media screen and (max-width: 411px) {
+    .top-container {
+        background: url('/images/MJLK-img-375.svg')
+    no-repeat center left/cover; 
+    }
+
 }
 
 /* -------375PX */
@@ -4972,6 +4784,307 @@ height: 32px;
         margin: 0 0 140px 40px;
         }
 
+/* ----------FIN 375PX */
+
+/* @media screen and (max-width: 375px) {
+    .top-container {
+        background: url('/images/MJLK-img-375.svg')
+    no-repeat center left/cover; 
+    }
+
+    .modal {
+        bottom : 3%;
+        width: 95%;
+        height: 60vh;
+    }
+
+    .title-cookies {
+        font-size: 0.9rem;
+    }
+
+    .gear-icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .details-cookies {
+        font-size: 0.9rem;
+    }
+
+    .cookie-option {
+        left: 15%;
+        width: 190px;
+        height: 45px;
+    }
+
+    .accept-cookies {
+        font-size: 13px; 
+        font-weight: normal;
+    }
+
+    .title__majelink {
+        margin-top: 120px;
+    }
+
+    .majelink__subject1 {
+        margin-left: -30px;
+    }
+    .sanction-rgpd {
+        width: 230px;
+        margin-top: 160px;
+        margin-left: -35px;
+    }
+
+    .intro-container {
+        flex-direction: column;
+    }
+
+    .cover-avatar {
+        width: 60px;
+        height: 60px;
+        border: 2px solid rgb(39, 41, 95);
+    }
+
+    .mjj-avatar {
+        width: 55x;
+        height: 50px;
+    }
+
+    .intro {
+        width: 230px;
+        text-align: center;
+        margin: 4px 0 0 10px;
+        font-weight: lighter;
+    }
+
+    .prestations {
+        width: 240px;
+        font-size: 27px;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 10px;
+    } 
+
+    .prestation-title {
+        width: 90%;
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .formules {
+        flex-direction: column;
+    }
+
+    .blur__starter-cover {
+        width: 300px;  
+        transform: matrix(0.99, -0.14, 0.15, 0.99, 0, 0);
+        margin-left: 12px;
+    }
+
+    .price__stater-cover {
+        width: 300px; 
+        margin: 0 0 0 0px;
+    }
+
+    .blur__webdev-cover {
+        width: 300px;  
+        transform: matrix(0.99, -0.14, 0.15, 0.99, 0, 0);
+        margin-left: 22px;
+    }
+
+    .price__webdev-cover {
+        width: 300px; 
+    }
+
+    .comply {
+        margin: -80px 0 0px 40px;
+        }
+
+    .blur__comply-cover {
+        width: 300px;  
+        transform: matrix(0.99, -0.14, 0.15, 0.99, 0, 0);
+        margin-right: 12px;
+    }
+
+    .price__comply-cover {
+        width: 300px; 
+    }
+
+    .price-details {
+        grid-template-columns: 25px 4fr;
+        grid-template-rows: 35px 35px 35px 35px;
+    }
+
+    .detail-task {
+        font-size: 13px;  
+    }
+
+    .question-span {
+        offset-position: top -20px;
+        margin-left: 200px;
+    }
+
+    .guide-web {
+        width: 300px; 
+    }
+
+    .subscribe {
+        margin-left: 48px; 
+    }
+
+    .info-payment {
+        width: 230px;
+        margin-top: 70px;
+        font-size: 15px; 
+        line-height: 20px;
+    }
+
+    .intro-form {
+        margin-bottom: 30px;
+        margin: -30px 0px 50px 0px;
+        font-size: 25px;
+    }
+
+    .test-rgpd {
+        width: 280px;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .question1 {
+        margin-top: -50px;
+        margin-left: -2px;
+        font-size: 15px;
+        width: 260px;
+        padding: 10px 10px 10px 15px;
+        text-align: center;
+    }
+
+    .exemple {
+        font-size: 15px;
+    }
+
+    .direction-rgpd1 {
+        width: 360px; 
+    }
+
+    .ifYes {
+        margin-top: -20px;
+    }
+
+    .okIcon {
+        width: 17px;
+        height: 17px;
+    }
+
+    .siOui {
+        font-size: 10px;
+    }
+
+    .down1 {
+        margin-right: 10px;
+        height: 50px; 
+    }
+
+    .right1 {
+        height: 50px; 
+    }
+
+    .rgpd-false1 {
+        margin-top: 30px;
+    }
+
+    .apply-rgpd1 {
+        font-size: 11px; 
+        width: 90px; 
+    }
+
+    .question2 {
+        font-size: 15px;
+        width: 260px;
+        margin-left: -38px;
+        padding: 10px 10px 10px 15px;
+        text-align: center;
+    }
+
+    .direction-rgpd2 {
+        width: 360px; 
+        margin-left: 12px;
+    }
+
+    .apply-rgpd2 {
+        font-size: 11px; 
+        width: 70px; 
+    }
+
+    .rgpd-true2 {
+        margin-top: 27px;
+    }
+
+    .down2 {
+        margin-right: 10px;
+        height: 50px;  
+    }
+
+    .right2 {
+        height: 50px; 
+    }
+
+    .question3 {
+        font-size: 15px;
+        width: 260px;
+        padding: 10px 10px 10px 15px;
+        text-align: center;
+    }
+
+    .direction-rgpd3 {
+        width: 360px; 
+        margin-left: 12px;
+        margin-top: 20px;
+    }
+
+    .warning-rg {
+        width: 280px;
+        margin: 0 10px 0 0;
+    }
+
+    .warning {
+        font-size: 14px;
+        text-align: center;
+    }
+
+    .contact-form {
+        width:100%;
+    }
+
+    .contact-intro {
+        width: 280px;
+        font-size: 25px;
+        margin-top: -40px;
+    }
+
+    .contact-title {
+        position: relative;
+        width:100%;
+        font-size: 13px;
+        margin-top: 30px ;
+    }
+
+    .span-form {
+        display: none;
+    }
+
+    /* .contGlobal {
+        width: 90%;
+        height: 130vh;
+        margin-left: 0.5px;
+        margin-right: 10px;
+    }
+
+    .panneauGauche {
+        width: 320px;
+    } */
+
     .contGlobal {
         flex-direction: column;
         min-height: 100vh;
@@ -5431,6 +5544,18 @@ height: 32px;
     .webdev {
         margin: 0 0 140px 40px;
         }
+
+
+}
+ */
+
+
+
+@media (orientation: landscape) {
+
+}
+
+
 
 
 

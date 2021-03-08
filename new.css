@@ -381,7 +381,6 @@ body {
     transform: scale(0);
     transition: transform 0.3s ease-in-out;
 }
-
 .menu-link a:hover::after {
     transform: scale(1);
 } */
@@ -491,7 +490,6 @@ body {
     margin-top: 160px;
     display: none;
 }
-
 .item-submenu {
     cursor: pointer;
     list-style-type: none;
@@ -502,13 +500,11 @@ body {
     box-shadow: rgba(41, 79, 24, 0.25) 0px 40px 80px, rgba(255, 255, 255, 0.1) 0px 0px 0px 0.5px inset;
     border-bottom: 0.5px solid;
 }
-
 .item-submenu:hover {
     background: rgb(184, 68, 54);
     color: rgb(184, 68, 54);
     transition: 0.6s ease-in-out;
 }
-
 .menu-link:hover > ul {
     display: block;
     transition: 0.6s ease-in-out;
@@ -767,18 +763,15 @@ body {
     background-color: red;
     line-height: 0;
 }
-
 .custom-shape-divider-top-1605798490 svg {
     position: relative;
     display: block;
     width: calc(103% + 1.3px);
     height: 60px;
 }
-
 .custom-shape-divider-top-1605798490 .shape-fill {
     fill: rgb(39, 41, 95);
 }
-
 .custom-shape-divider-top-1605798593 {
     position: relative;
     top: 0;
@@ -789,7 +782,6 @@ body {
     background-color: rgb(39, 41, 95);
     transform: rotate(180deg);
 }
-
 .custom-shape-divider-top-1605798593 svg {
     position: relative;
     display: block;
@@ -797,7 +789,6 @@ body {
     height: 60px;
     background-color: rgb(39, 41, 95);
 }
-
 .custom-shape-divider-top-1605798593 .shape-fill {
     fill: red;
 } */
@@ -1310,12 +1301,10 @@ body {
     animation-name: animblur;
     animation-duration: 1s;
 }
-
 .webdev:hover {
     animation-name: animblur;
     animation-duration: 1s;
 }
-
 .comply:hover {
     animation-name: animblur;
     animation-duration: 1s;
@@ -1761,7 +1750,7 @@ body {
 }
 
 .rgpd-form {
-    margin-top: 100px;
+    margin-top: 150px;
     padding-top: 80px;
     width: 100vw;
     position: relative;
@@ -2342,7 +2331,6 @@ body {
 
 .right2 {
     height: 100px;
-    margin-left: 10px;
 }
 
 .right3 {
@@ -2448,7 +2436,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: start;
-    /* margin-top: 10px; */
+    margin-top: 10px;
     /* display: none; */
 }
 
@@ -2616,7 +2604,7 @@ body {
     transform: translateY(-3px); 
 }
 
-/* @media screen and (max-width:880px){
+@media screen and (max-width:880px){
     .second-formulaire {
         grid-template-columns: 1fr;
     }
@@ -2624,7 +2612,7 @@ body {
     .contact-image {
         height: 200px;
     }
-} */
+}
 
 .avertissement {
     text-align: justify;
@@ -2664,20 +2652,16 @@ body {
     display: flex;
     min-height: 75vh;
 }
-
 .image-formulaire {
     width: 300px;
 }
-
 .formBloc {
     
 }
-
 .panneauDroit {
     flex-basis: 30%;
     background-color: red;
 }
-
 .panneauGauche {
     flex: 1 1 70%;
 } */
@@ -2688,6 +2672,8 @@ body {
     left: 50%;
     transform: translate(-50%);
     width: 1200px;
+    /* justify-content: center; */
+    /* align-items: center; */
     height: 104vh;
     background: linear-gradient(rgba(24, 32, 79, 0.4) 0%, rgba(24, 32, 79, 0.4) 100%);
     box-shadow: rgba(24, 32, 79, 0.25) 0px 40px 80px, rgba(255, 255, 255, 0.5) 0px 0px 0px 0.5px inset;
@@ -2798,6 +2784,7 @@ body {
     background-image: linear-gradient(to bottom right, rgb(149, 166, 243), rgb(112, 113, 146));
     display: flex;
     flex-direction: column;
+    /* justify-content: center; */
     align-items: center;
     border-radius: 18px;
     /* box-shadow: rgba(24, 32, 79, 0.25) 0px 40px 80px, rgba(255, 255, 255, 0.5) 0px 0px 0px 0.5px inset; */
@@ -2853,7 +2840,7 @@ height: 32px;
 
 
 .panneauDroit .illustration {
-    
+    /* margin-bottom: 50px; */
 }
 
 .container-contact2 {
@@ -2870,6 +2857,15 @@ height: 32px;
     margin-top: 55px;
     margin-bottom: 35px;
 }
+
+/* .bouton-notification1 {
+    width: 52px;
+    height: 52px;
+    background: rgba(243, 243, 243, 0.2);
+    border-radius: 50%;
+    margin: 8px;
+    transition: transform 0.5s ease-in-out;
+} */
 
 .bouton-notification2 {
     width: 55px;
@@ -2917,8 +2913,599 @@ height: 32px;
     margin-left: 20px;
 }
 
-/* ajout */
 
+/* --------- FIN NOUVEAU FORMULAIRE DE CONTACT ----------- */
+
+/* ---------- MEDIA QUERIES */
+
+@media screen and (min-width: 1281px) {
+    .top-container {
+        background-color: rgb(10, 45, 114);
+        background-image: url('/images/majelink-home.svg')
+        no-repeat center right/cover;
+    }
+    .present__majelink {
+    position: relative;
+    top: 7%;
+    }
+    .rgpd-image-mjlk {
+        position: relative;
+        top: 10%;
+        left: 8%;
+        background: url('/images/majelink-home.svg')
+        no-repeat center right/cover;
+        width: 950px;
+        height: 830px;
+    }
+    .homme-cle {
+        top: 27%;
+        left: 430px;
+    }
+    .donnees-personnelles {
+        top: 360px;
+        left: 930px;
+    }
+    .securite-données {
+        top: 515px;
+        left: 1015px;
+    }
+    .information-personne {
+        top: 805px;
+        left: 558px;
+    }
+    .documentation {
+        top: 670px;
+        left: 350px;
+    }
+    #navigation__menu {
+        justify-content: right;
+        margin-top: 60px;
+    }
+    .navigation__logo {
+        /* flex-basis: 30%; */
+        margin-left: 23%;
+    }
+    .navigation__item {
+        margin-right: -2%;
+    }
+    .menu-link {
+        /* width: 180px; */
+    }
+
+    .title__majelink {
+        margin:10% 0 0 26%; 
+    }
+    .majelink__banner {
+        margin-bottom: 70px; 
+    }
+    .modal {
+        bottom : 3%;
+        width: 35%;
+        height: 20vh;
+    }
+    .contact-intro {
+        position: relative;
+       left: 50%;
+       transform: trnaslate(-50%);
+        width: 1200px;
+        margin-bottom: 20px;
+    }
+    .intro-form {
+        left: 84%;
+    }
+    .quest1, .quest2, .quest3 {
+        left: 30%;  
+    }
+    .direction-rgpd1 {
+        left: 55%;
+    }
+    .direction-rgpd2 {
+        left: 45%;
+    }
+    .direction-rgpd3 {
+        left: 51%;
+    }
+
+    .wave {
+        background: url('/images/wave-large.svg');
+        background-size: 2000px 150px;
+    }
+    .wave1 {
+        background: url('/images/wave1-large.svg');
+        background-size: 2000px 150px;
+    }
+    .wave2 {
+        background: url('/images/wave2-large.svg');
+        background-size: 2000px 150px;
+    }
+    .wave3 {
+        background: url('/images/wave3-large.svg');
+        background-size:2000px 150px;
+    }
+    @keyframes waveAnimate {
+    0% {
+        background-position-x: 0%;
+    }
+    50% {
+        background-position-x: 50%;
+    }
+    0% {
+        background-position-x: 100%;
+    }
+    }
+    @keyframes waveAnimate1 {
+        0% {
+            background-position-x: 0%;
+        }
+        50% {
+            background-position-x: 50%;
+        }
+        0% {
+            background-position-x: -100%;
+        }
+        }
+@keyframes waveAnimate2 {
+    0% {
+    background-position-x: 0%;
+    }
+    50% {
+    background-position-x: 50%;
+    }
+    0% {
+   background-position-x: -100%;
+        }
+}
+@keyframes waveAnimate3 {
+  0% {
+    background-position-x: 0%;
+    }
+50% {
+    background-position-x: 50%;
+    }
+0% {
+    background-position-x: -100%;
+        }
+}
+
+    .contGlobal {
+        position: relative;
+        right: 11%;
+        width: 1200px;
+        height: 690px;    
+    }
+    .panneauDroit {
+       /* width: 60vh; */
+    }
+    .field {
+        width: 593px; 
+    }
+    .lien-politique {
+       margin-left: 150px;
+    }
+    .faq-box {
+        width: 370px;
+        height: auto;
+    }
+    #img-newsletter {
+        width: 1200px;
+        border-top-radius: 10px;
+    }
+    .website {
+        padding-right: 350px;
+    }
+    .rights {
+        padding-right: 580px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .top-container {
+        background: url('/images/majelink-home.svg')
+        no-repeat center left/cover;   
+    }
+    
+}
+
+@media screen and (max-width: 1000px) {
+    .contGlobal {
+        flex-direction: column;
+        min-height: 100vh;
+        width: 100vw!important;
+        align-items: center;
+    }
+    .panneauDroit {
+        display: none;
+    }
+    .panneauGauche {
+        width: 70vw!important;
+        padding: 25px;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .panneauGauche {
+        width: 80vw!important;
+    } 
+    .formBloc .formGroup .buttonSub {
+        margin: 0 auto;
+    }  
+    .mdpPerdu {
+        text-align: center;
+    }  
+}
+
+@media screen and (max-width: 400px) {
+    .panneauGauche {
+        width: 100vw!important;
+    } 
+    
+}
+
+/* ---------- querie right menu ------ */
+
+@media(max-width: 375px){
+    .top-container {
+        background: url('/images/majelink-pic2.svg')
+    no-repeat center left/cover; 
+    }
+
+    .navigation__logo {
+        position: absolute;
+        left: -45px;
+    }
+    .logo__majelink-1 {
+        margin-top: 0px;
+        width: 40px;
+        height: 40px; 
+}
+
+    .right-menu {
+        display: block;
+    }
+
+    .navigation__item {
+        display: block;
+        position: absolute;
+        top: 70px;
+        right: 13px;
+        /* color: black; */
+        background: rgba(13, 8, 43, 0.425);
+        width: 55%;
+        height:55vh;
+        /* border-right: white 0.5px solid; */
+        opacity: 0.9;
+        padding: 10px;
+        padding-left: 12%;
+        border-radius: 15px;
+        transform: translateX(500px);
+        transition: transform 0.5s ease-in-out;
+
+    }
+
+    .navigation__item.show{
+        transform: translateX(-20px);
+    }
+
+    .menu-link {
+        padding: 10px;
+        border-bottom: 1px solid #cccccc;
+        font-size: 16px;
+    }
+
+    .menu-link:last-child {
+        
+        border-bottom: 0;
+       
+    }
+
+    .majelink__banner {
+        font-size: 1.9rem;
+        margin-top: -20px;
+        margin-bottom: 30px;
+    }
+
+    .majelink__subject1 {
+        font-size: 1.4rem;
+        margin-bottom: 30px;
+        width: 240px;
+    }
+
+    .fleche {
+        /* width: 120px;
+        height: 180px; */
+        /* margin-left: 50px;
+        margin-bottom: 30px; */
+        display: none;
+    }
+
+    .sanction-rgpd {
+        width: 130%;
+        margin: 260px auto 0;
+        /* display: grid; */
+        grid-template-columns: 1fr 3fr;
+        /* /* justify-content: center; */
+        /* align-items: center; */
+        /* background: linear-gradient(rgba(24, 32, 79, 0.4) 0%, rgba(24, 32, 79, 0.4) 100%); */
+        box-shadow: rgba(24, 32, 79, 0.25) 0px 40px 80px, rgba(255, 255, 255, 0.3) 0px 0px 0px 0.3px inset;
+        /* border-radius: 20px; */
+        /* padding: 16px; */ 
+    }
+
+    .sanction-logo {
+        width: 30px;
+        height: 30px;
+    }
+
+    .button-rgpd {
+        display: none;
+    }
+
+    .sanction1 {
+        font-size: 1rem;
+    }
+
+    .sanction2 {
+        font-size: 0.84rem; 
+    }
+
+
+    .mjj-avatar1 {
+        width: 55px;
+        height: 35px;
+        /* border-radius: 50%; */
+        /* margin: 40px 0 20px 0; */
+        /* margin-bottom: 15px; */
+    }
+
+    .intro {
+        font-size: 14px;
+        /* color: white; */
+        /* font-weight: bold; */
+        /* margin-bottom: 45px; */
+    }
+
+    /* .custom-shape-divider-top-1605798490 {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        overflow: hidden;
+        background-color: red;
+        line-height: 0;
+    } */
+
+    .prestations {
+        /* margin-top: 50px;
+        margin-bottom: 10px;
+        font-family: 'PT Sans', sans-serif; */
+        font-size: 27px;
+        /* color: white;
+        font-weight: bold; */
+    }
+
+    .prestation-title {
+        width: 90%;
+        text-align: center;
+        font-size: 14px;
+        /* color: white;
+        margin-bottom: 150px;
+        font-weight: lighter;
+        font-style: italic; */
+    }
+
+    .formules {
+        flex-direction: column;
+        /* display: flex;
+        width: 80%;
+        justify-content: space-around;
+        justify-content: center; */
+    }
+
+    .starter {
+    margin: 0 0 80px 40px;
+
+    }
+
+    .blur__starter-cover {
+        /* position: absolute; */
+        /* width: 320px; */
+        /* width: 100%;
+        height: 500px;
+        background: linear-gradient(rgba(108, 207, 238, 0.3) 0%, rgba(76, 127, 228, 0.5) 100%);
+        border-radius: 0px 60px 60px;
+        transform: matrix(0.99, -0.14, 0.15, 0.99, 0, 0);
+        transform-origin: left top;
+        z-index: 0;
+        transition: transform 0.5s ease-in-out; */
+    }
+    
+    .price__stater-cover {
+        /* position: relative; */
+        width: 320px;
+        /* height: 520px;
+        background: #1A2980;  /* fallback for old browsers */
+        /* background-color: blue; */
+        /* background: rgba(255, 255, 255, 0.3); */
+        /* box-shadow: rgba(24, 32, 79, 0.25) 0px 40px 80px, rgba(255, 255, 255, 0.5) 0px 0px 0px 0.5px inset;
+        backdrop-filter: blur(40px);
+        padding: 50px 20px;
+        border-radius: 0px 60px 60px;
+        z-index: 2;
+        margin-right: 40px; */
+    }
+
+    .price {
+        /* grid-column-start: 1;
+        grid-column-end: -1; */
+        font-size: 45px;
+        /* color: white;
+        font-weight: bold; */
+    }
+
+    .price-details {
+        /* display: grid;
+        grid-template-columns: 25px 3fr;
+        grid-template-rows: 35px 35px 35px 20px;
+        grid-column-gap: 20px; */
+        /* margin: 30px 5px 50px 5px; */
+        /* z-index: 40;    */
+    }
+
+    .subscribe {
+        /* background: linear-gradient(rgb(255, 255, 255) 0%, rgb(217, 223, 255) 100%);
+        border: 0.5px solid rgba(255, 255, 255, 0.5);
+        box-sizing: border-box;
+        box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px, rgba(23, 0, 102, 0.2) 0px 20px 40px;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 4px; */
+        width: 169px;
+        /* cursor: pointer; */
+        margin-left: 60px;
+        margin-top: 40px;
+        /* text-decoration: none;
+        color: black;
+        font-weight: 500;
+        /* z-index: 40; */
+        transition: transform 0.5s ease-in-out; 
+    }
+
+    .webdev {
+        margin: 0 0 140px 40px;
+        }
+    
+        .blur__webdev-cover {
+            width: 320px;
+        }
+        
+        .price__webdev-cover {
+            width: 320px;
+        }
+
+        .comply {
+            margin: 0 0 0px 40px;
+            }
+        
+            .blur__comply-cover {
+                width: 320px;
+            }
+            
+            .price__comply-cover {
+                width: 320px;
+            }
+
+            .intro-form {
+                /* margin-top: 140px;
+                margin-bottom: 30px;
+                font-family: 'PT Sans', sans-serif; */
+                margin: 140px 0 50px 140px;
+                /* width: 200px; */
+                font-size: 25px;
+                /* color: white;
+                font-weight: bold; */
+            }
+
+}
+
+/* ---------- FIN querie right menu ------ */
+/*  media querries all */
+@media screen and (max-width: 320px) {
+    /* .image-pending {
+       width: 300px;
+       margin-top: 50px; 
+       margin-bottom: 50px;
+    }
+    .message-content {
+        flex-direction: column;
+    }
+    .flag {
+        width: 25px;
+        height: 25px; 
+    }
+    .message:first-child{
+        margin-bottom: 20px;
+    } */
+}
+
+@media (orientation: landscape) {
+    /* .image-pending {
+        width: 500px;
+        margin-top: 80px; 
+        margin-bottom: 20px;
+     }
+     .message-content {
+        flex-direction: column;
+    }
+    .message:first-child{
+        margin-bottom: 20px;
+    } */
+  }
+
+@media screen and (max-width: 375px) {
+    /* .image-pending {
+       width: 300px;
+       margin-top: 50px; 
+       margin-bottom: 50px;
+    }
+    .message-content {
+        flex-direction: column;
+    }
+    .flag {
+        width: 25px;
+        height: 25px; 
+    }
+    .message:first-child{
+        margin-bottom: 20px;
+    } */
+}
+
+@media screen and (max-width: 414px) {
+    /* .image-pending {
+       width: 300px;
+       margin-top: 50px; 
+       margin-bottom: 50px;
+    }
+    .message-content {
+        flex-direction: column;
+    }
+    .flag {
+        width: 25px;
+        height: 25px; 
+    }
+    .message:first-child{
+        margin-bottom: 20px;
+    } */
+}
+
+@media screen and (max-width: 540px) {
+    /* .image-pending {
+       width: 300px;
+       margin-top: 50px; 
+       margin-bottom: 50px;
+    }
+    .message-content {
+        flex-direction: column;
+    }
+    .flag {
+        width: 25px;
+        height: 25px; 
+    }
+    .message:first-child{
+        margin-bottom: 20px;
+    } */
+
+    @media screen and (min-width: 700px) {
+      
+    }
+}
+
+
+
+/* fin medias querries all */
+
+/* ---------- fin media queries */
 
 /* ---------- ANIMATION -------- */
 .formBloc .formGroup:focus-within label,
@@ -3215,9 +3802,10 @@ height: 32px;
     padding: 5px;
 }
 
+
+
 .faq-container {
     display: flex;
-    flex-wrap: nowrap;
     flex-direction: column;
     margin-bottom: 250px;
 }
@@ -3394,10 +3982,8 @@ height: 32px;
 }
 
 #news-form {
-    width: 500px;
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
     grid-column-gap: 20px;
     justify-content: center;
     /* align-items: center; */
@@ -3422,21 +4008,15 @@ height: 32px;
     margin-top: 20px;
 }
 
-.bloc-form-news {
-    position: relative;
-    width: 100%;
-    display: flex;
-}
-
 #field-news {
-    width: 250px;
+    width: 280px;
     outline: none;
     border: 1px solid rgba(153, 151, 151, 0.3);
     background: linear-gradient(rgba(24, 32, 79, 0.4) 0%, rgba(24, 32, 79, 0.4) 100%);
     box-shadow: rgba(24, 32, 79, 0.25) 0px 40px 80px, rgba(255, 255, 255, 0.5) 0px 0px 0px 0.5px inset;
     border-radius: 8px;
     font-size: 15px;
-    margin: 16px 20px 18px 19px;
+    margin: 16px 0 18px 19px;
     padding-left: 10px;
     transition: .3s;
 }
@@ -3452,7 +4032,6 @@ height: 32px;
 }
 
 .subscribe1 {
-    width: 40%;
     background: linear-gradient(rgb(255, 255, 255) 0%, rgb(217, 223, 255) 100%);
     border: 0.5px solid rgba(255, 255, 255, 0.5);
     box-sizing: border-box;
@@ -3514,8 +4093,10 @@ height: 32px;
 }
 
 .footer-container {
+    /* display: flex; */
     display:grid;
-    grid-template-columns: 1fr 1.5fr 2fr 0.5fr;
+    /* width: 1200px; */
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     justify-items: center;
     align-items: center;
     gap: 10px;
@@ -3534,20 +4115,23 @@ height: 32px;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    width: 80px;
+    width: 30%;
+    /* letter-spacing: 1px; */
+    /* height: 50px; */
 }
 
 .mjj-avatar1 {
     width: 65px;
     height: 65px;
     border-radius: 50%;
+    /* margin: 40px 0 20px 0; */
+    /* margin-bottom: 15px; */
 }
 
-.mjj-avatar2 {
-    width: 65px;
-    height: 65px;
-    border-radius: 50%;
-}
+/* .carte-visite {
+    width: 400px;
+    height: 400px;
+} */
 
 .jj-title {
     display: flex;
@@ -3561,6 +4145,7 @@ height: 32px;
 .mjj-name {
     font-style: normal;
     font-size: 15px;
+    /* line-height: 18px; */
     text-align: center;
     color: whitesmoke;
     font-weight: 100;
@@ -3579,7 +4164,7 @@ height: 32px;
 
 .lawyer {
     font-style: normal;
-    font-size: 15px;
+    font-size: 13px;
     line-height: 18px;
     text-align: center;
     color: rgb(184, 184, 197);
@@ -3589,7 +4174,7 @@ height: 32px;
 
 .passion {
     font-style: normal;
-    font-size: 15px;
+    font-size: 13px;
     line-height: 18px;
     text-align: center;
     color: rgb(184, 184, 197);
@@ -3600,22 +4185,28 @@ height: 32px;
 .footer-nav {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
     align-items: start;
-    /* width: 50%; */
+    width: 25%;
     letter-spacing: 0.5px;
 }
 
 .logo__majelink-2 {
-    width: 30px;
+    width: 50px;
     height: 30px; 
     margin-top: 30px;
+    margin-left: -10px;
     margin-bottom: 15px; 
 }
 
+
+
 .footer-prestation {
     diplay: flex;
-    justify-content: start;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
 }
 
 .footer-link {
@@ -3626,6 +4217,7 @@ height: 32px;
     margin:0;
     font-style: normal;
     font-size: 15px;
+    /* margin-bottom: 10px; */
     text-align: center;
     color: rgb(184, 184, 197);
     font-weight: lighter;
@@ -3642,6 +4234,7 @@ height: 32px;
     text-decoration: none;
     align-items: center;
     margin-bottom: 7px;
+    /* margin-top: 10px; */
 }
 
 .menu-link3 {
@@ -3649,6 +4242,7 @@ height: 32px;
     text-decoration: none;
     align-items: center;
     margin-bottom: 7px;
+  
 }
 
 .footer-title__contact {
@@ -3683,14 +4277,18 @@ height: 32px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-start;
+    align-items: center;
+    width: 300px;
+    margin-left: -50px;
     letter-spacing: 0.5px;
+    margin-top: 7px;
 }
 
 .doc {
     width: 28px;
     height: 30px;
     margin-top: 25px;
+    /* margin-bottom: 15px; */
 }
 
 .mentions-legales {
@@ -3698,11 +4296,13 @@ height: 32px;
     font-style: normal;
     font-size: 15px;
     margin: 25px 0 8px 0;
+    /* line-height: 40px; */
     text-align: center;
     color: rgb(184, 184, 197);
     font-weight: lighter;
     transition-property: color;
     transition-duration: 0.3s;
+    /* padding-bottom: 10px; */
 }
 
 .mentions-legales:hover {
@@ -3720,6 +4320,7 @@ height: 32px;
     font-weight: lighter;
     transition-property: color;
     transition-duration: 0.3s;
+    /* padding-bottom: 10px; */
 }
 
 .politique-donnees:hover {
@@ -3755,11 +4356,14 @@ height: 32px;
 
 .footer2 {
     position: relative;
+    left: 50%;
+    transform: translate(-50%);
     display: grid;
     height: 70px;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 2fr;
     justify-content: center;
     align-items: center;
+    /* padding-right: 20px; */
     background-color: rgb(35, 37, 74)
 }
 
@@ -3770,8 +4374,7 @@ height: 32px;
     text-align: center;
     color: rgb(184, 184, 197);
     font-weight: lighter;
-    justify-content: end;
-    width: 42%;
+    padding-right: 100px;
 }
 
 .rights {
@@ -3782,7 +4385,7 @@ height: 32px;
     color: rgb(184, 184, 197);
     font-weight: lighter;
     font-style: italic;
-    width: 81%;
+    padding-left: 350px;
 }
 
 .love {
@@ -3791,1646 +4394,16 @@ height: 32px;
     padding: 0 2px 0 2px;
 }
 
-/* --------- FIN NOUVEAU FORMULAIRE DE CONTACT ----------- */
+/*  -------- MEDIA QUERRIES */
 
-/* ---------- MEDIA QUERIES */
-
-@media screen and (min-width: 1281px) {
-    .top-container {
-        background-color: rgb(10, 45, 114);
-        background-image: url('/images/majelink-home.svg')
-        no-repeat center right/cover;
-    }
-    .present__majelink {
-    position: relative;
-    top: 7%;
-    }
-    .rgpd-image-mjlk {
-        position: relative;
-        top: 10%;
-        left: 8%;
-        background: url('/images/majelink-home.svg')
-        no-repeat center right/cover;
-        width: 950px;
-        height: 830px;
-    }
-    .homme-cle {
-        top: 27%;
-        left: 430px;
-    }
-    .donnees-personnelles {
-        top: 360px;
-        left: 930px;
-    }
-    .securite-données {
-        top: 515px;
-        left: 1015px;
-    }
-    .information-personne {
-        top: 805px;
-        left: 558px;
-    }
-    .documentation {
-        top: 670px;
-        left: 350px;
-    }
-    #navigation__menu {
-        justify-content: right;
-        margin-top: 60px;
-    }
-    .navigation__logo {
-        /* flex-basis: 30%; */
-        margin-left: 23%;
-    }
-    .navigation__item {
-        margin-right: -2%;
-    }
-    .menu-link {
-        /* width: 180px; */
-    }
-
-    .title__majelink {
-        margin:10% 0 0 26%; 
-    }
-    .majelink__banner {
-        margin-bottom: 70px; 
-    }
-    .modal {
-        bottom : 3%;
-        width: 35%;
-        height: 20vh;
-    }
-    .contact-intro {
-        position: relative;
-       left: 50%;
-       transform: trnaslate(-50%);
-        width: 1200px;
-        margin-bottom: 20px;
-    }
-    .intro-form {
-        left: 84%;
-    }
-    .quest1, .quest2, .quest3 {
-        left: 30%;  
-    }
-    .direction-rgpd1 {
-        left: 55%;
-    }
-    .direction-rgpd2 {
-        left: 45%;
-    }
-    .direction-rgpd3 {
-        left: 51%;
-    }
-
-    .wave {
-        background: url('/images/wave-large.svg');
-        background-size: 2000px 150px;
-    }
-    .wave1 {
-        background: url('/images/wave1-large.svg');
-        background-size: 2000px 150px;
-    }
-    .wave2 {
-        background: url('/images/wave2-large.svg');
-        background-size: 2000px 150px;
-    }
-    .wave3 {
-        background: url('/images/wave3-large.svg');
-        background-size:2000px 150px;
-    }
-    @keyframes waveAnimate {
-    0% {
-        background-position-x: 0%;
-    }
-    50% {
-        background-position-x: 50%;
-    }
-    0% {
-        background-position-x: 100%;
-    }
-    }
-    @keyframes waveAnimate1 {
-        0% {
-            background-position-x: 0%;
-        }
-        50% {
-            background-position-x: 50%;
-        }
-        0% {
-            background-position-x: -100%;
-        }
-        }
-@keyframes waveAnimate2 {
-    0% {
-    background-position-x: 0%;
-    }
-    50% {
-    background-position-x: 50%;
-    }
-    0% {
-   background-position-x: -100%;
-        }
-}
-@keyframes waveAnimate3 {
-  0% {
-    background-position-x: 0%;
-    }
-50% {
-    background-position-x: 50%;
-    }
-0% {
-    background-position-x: -100%;
-        }
-}
-
-    .contGlobal {
-        position: relative;
-        right: 11%;
-        width: 1200px;
-        height: 690px;    
-    }
-    .panneauDroit {
-       /* width: 60vh; */
-    }
-    .field {
-        width: 593px; 
-    }
-    .lien-politique {
-       margin-left: 150px;
-    }
-    .faq-box {
-        width: 370px;
-        height: auto;
-    }
-    #img-newsletter {
-        width: 1200px;
-        border-top-radius: 10px;
-    }
-    .website {
-        padding-right: 350px;
-    }
-    .rights {
-        padding-right: 580px;
+@media screen and (max-width: 380px) {
+    txt-animation {
+        font-size: 15px!important;
     }
 }
 
-/* ---------- 1281PX ------------- */
-
-@media screen and (min-width: 1281px) {
-    .top-container {
-        background-color: rgb(10, 45, 114);
-        background-image: url('/images/majelink-home.svg')
-        no-repeat center right/cover;
-    }
-    .present__majelink {
-    position: relative;
-    top: 7%;
-    }
-    .rgpd-image-mjlk {
-        position: relative;
-        top: 10%;
-        left: 8%;
-        background: url('/images/majelink-home.svg')
-        no-repeat center right/cover;
-        width: 950px;
-        height: 830px;
-    }
-    .homme-cle {
-        top: 27%;
-        left: 430px;
-    }
-    .donnees-personnelles {
-        top: 275px;
-        left: 840px;
-    }
-    .securite-données {
-        top: 429px;
-        left: 918px;
-    }
-    .information-personne {
-        top: 655px;
-        left: 548px;
-    }
-    .documentation {
-        top: 560px;
-        left: 350px;
-    }
-    #navigation__menu {
-        justify-content: right;
-        margin-top: 60px;
-    }
-    .navigation__logo {
-        /* flex-basis: 30%; */
-        margin-left: 23%;
-    }
-    .navigation__item {
-        margin-right: -2%;
-    }
-    .menu-link {
-        /* width: 180px; */
-    }
-
-    .title__majelink {
-        margin:10% 0 0 26%; 
-    }
-    .majelink__banner {
-        margin-bottom: 90px; 
-    }
-    .modal {
-        bottom : 3%;
-        width: 35%;
-        height: 20vh;
-    }
-    .contact-intro {
-        position: relative;
-        left: 50%;
-        transform: translate(-50%);
-        width: 1200px;
-        margin-bottom: 20px;
-    }
-    .intro-form {
-        left: 84%;
-    }
-    .quest1, .quest2, .quest3 {
-        left: 30%;  
-    }
-    .direction-rgpd1 {
-        left: 55%;
-    }
-    .direction-rgpd2 {
-        left: 45%;
-    }
-    .direction-rgpd3 {
-        left: 51%;
-    }
-
-    .wave {
-        background: url('/images/wave-large.svg');
-        background-size: 2000px 150px;
-    }
-    .wave1 {
-        height: 150px;
-        background: url('/images/wave1-large.svg');
-        background-size: 2000px 150px;
-    }
-    .wave2 {
-        height: 150px;
-        background: url('/images/wave2-large.svg');
-        background-size: 2000px 150px;
-    }
-    .wave3 {
-        height: 150px;
-        background: url('/images/wave3-large.svg');
-        background-size:2000px 150px;
-    }
-    @keyframes waveAnimate {
-    0% {
-        background-position-x: 0%;
-    }
-    50% {
-        background-position-x: 0%;
-    }
-    100% {
-        background-position-x: 0%;
-    }
-    }
-    @keyframes waveAnimate1 {
-        0% {
-            background-position-x: 0%;
-        }
-        50% {
-            background-position-x: 0%;
-        }
-        100% {
-            background-position-x: 0%;
-        }
-        }
-@keyframes waveAnimate2 {
-    0% {
-    background-position-x: 0%;
-    }
-    50% {
-        background-position-x: 0%;
-    }
-    100% {
-        background-position-x: 0%;
+@media screen and (max-width: 370px) {
+    txt-animation {
+        font-size: 13px!important;
     }
 }
-@keyframes waveAnimate3 {
-  0% {
-    background-position-x: 0%;
-    }
-    50% {
-        background-position-x: 0%;
-    }
-    100% {
-        background-position-x: 0%;
-    }
-}
-
-    .contGlobal {
-        position: relative;
-        right: 11%;
-        width: 1200px;
-        height: 690px;    
-    }
-    .panneauDroit {
-       /* width: 60vh; */
-    }
-    .field {
-        width: 593px; 
-    }
-    .lien-politique {
-       margin-left: 150px;
-    }
-    .faq-box {
-        width: 370px;
-        height: auto;
-    }
-    #img-newsletter {
-        width: 1200px;
-        border-top-radius: 10px;
-    }
-    .website {
-        padding-right: 10px;
-    }
-    .rights {
-        padding-right: 10px;
-    }
-}
-/* ---------- 1280 ----------- */
-
-@media screen and (max-width: 1280px) {
-    .top-container {
-        background: url('/images/majelink-home.svg')
-    no-repeat center left/cover; 
-    }
-
-    /* .top-container {
-        background: url('/images/majelink-home.svg')
-        no-repeat center left/cover;   
-    } */
-}
-
-/* -------- 1000PX --------- */
-
-@media screen and (max-width: 1000px) {
-    .contGlobal {
-        flex-direction: column;
-        min-height: 100vh;
-        width: 100vw!important;
-        align-items: center;
-    }
-    .panneauDroit {
-        display: none;
-    }
-    .panneauGauche {
-        width: 70vw!important;
-        padding: 25px;
-    }
-}
-
-@media screen and (max-width: 700px) {
-    .panneauGauche {
-        width: 80vw!important;
-    } 
-    .formBloc .formGroup .buttonSub {
-        margin: 0 auto;
-    }  
-    .mdpPerdu {
-        text-align: center;
-    }  
-}
-
-@media screen and (max-width: 400px) {
-    .panneauGauche {
-        width: 100vw!important;
-    } 
-    
-}
-
-/* -------375PX */
-
-@media screen and (max-width: 375px) {
-    .top-container {
-        background: url('/images/MJLK-img-375.svg')
-    no-repeat center left/cover; 
-    }
-
-    .modal {
-        bottom : 3%;
-        width: 95%;
-        height: 60vh;
-    }
-
-    .title-cookies {
-        font-size: 0.9rem;
-    }
-
-    .gear-icon {
-        width: 40px;
-        height: 40px;
-    }
-
-    .details-cookies {
-        font-size: 0.9rem;
-    }
-
-    .cookie-option {
-        left: 15%;
-        width: 190px;
-        height: 45px;
-    }
-
-    .accept-cookies {
-        font-size: 13px; 
-        font-weight: normal;
-    }
-
-    .title__majelink {
-        margin-top: 120px;
-    }
-
-    .majelink__subject1 {
-        margin-left: -30px;
-    }
-    .sanction-rgpd {
-        width: 230px;
-        margin-top: 160px;
-        margin-left: -35px;
-    }
-
-    .intro-container {
-        flex-direction: column;
-    }
-
-    .cover-avatar {
-        width: 60px;
-        height: 60px;
-        border: 2px solid rgb(39, 41, 95);
-    }
-
-    .mjj-avatar {
-        width: 55x;
-        height: 50px;
-    }
-
-    .intro {
-        width: 230px;
-        text-align: center;
-        margin: 4px 0 0 10px;
-        font-weight: lighter;
-    }
-
-    .prestations {
-        width: 240px;
-        font-size: 27px;
-        text-align: center;
-        margin-top: 50px;
-        margin-bottom: 10px;
-    } 
-
-    .prestation-title {
-        width: 90%;
-        text-align: center;
-        font-size: 14px;
-    }
-
-    .formules {
-        flex-direction: column;
-    }
-
-    .blur__starter-cover {
-        width: 300px;  
-        transform: matrix(0.99, -0.14, 0.15, 0.99, 0, 0);
-        margin-left: 12px;
-    }
-
-    .price__stater-cover {
-        width: 300px; 
-        margin: 0 0 0 0px;
-    }
-
-    .blur__webdev-cover {
-        width: 300px;  
-        transform: matrix(0.99, -0.14, 0.15, 0.99, 0, 0);
-        margin-left: 22px;
-    }
-
-    .price__webdev-cover {
-        width: 300px; 
-    }
-
-    .comply {
-        margin: -80px 0 0px 40px;
-        }
-
-    .blur__comply-cover {
-        width: 300px;  
-        transform: matrix(0.99, -0.14, 0.15, 0.99, 0, 0);
-        margin-right: 12px;
-    }
-
-    .price__comply-cover {
-        width: 300px; 
-    }
-
-    .price-details {
-        grid-template-columns: 25px 4fr;
-        grid-template-rows: 35px 35px 35px 35px;
-    }
-
-    .detail-task {
-        font-size: 13px;  
-    }
-
-    .question-span {
-        offset-position: top -20px;
-        margin-left: 200px;
-    }
-
-    .guide-web {
-        width: 300px; 
-    }
-
-    .subscribe {
-        margin-left: 48px; 
-    }
-
-    .info-payment {
-        width: 230px;
-        margin-top: 70px;
-        font-size: 15px; 
-        line-height: 20px;
-    }
-
-    .intro-form {
-        margin-bottom: 30px;
-        margin: -30px 0px 50px 0px;
-        font-size: 25px;
-    }
-
-    .test-rgpd {
-        width: 280px;
-        font-size: 15px;
-        text-align: center;
-    }
-
-    .question1 {
-        margin-top: -50px;
-        margin-left: -2px;
-        font-size: 15px;
-        width: 260px;
-        padding: 10px 10px 10px 15px;
-        text-align: center;
-    }
-
-    .exemple {
-        font-size: 15px;
-    }
-
-    .direction-rgpd1 {
-        width: 360px; 
-    }
-
-    .ifYes {
-        margin-top: -20px;
-    }
-
-    .okIcon {
-        width: 17px;
-        height: 17px;
-    }
-
-    .siOui {
-        font-size: 10px;
-    }
-
-    .down1 {
-        margin-right: 10px;
-        height: 50px; 
-    }
-
-    .right1 {
-        height: 50px; 
-    }
-
-    .rgpd-false1 {
-        margin-top: 30px;
-    }
-
-    .apply-rgpd1 {
-        font-size: 11px; 
-        width: 90px; 
-    }
-
-    .question2 {
-        font-size: 15px;
-        width: 260px;
-        margin-left: -38px;
-        padding: 10px 10px 10px 15px;
-        text-align: center;
-    }
-
-    .direction-rgpd2 {
-        width: 360px; 
-        margin-left: 12px;
-    }
-
-    .apply-rgpd2 {
-        font-size: 11px; 
-        width: 70px; 
-    }
-
-    .rgpd-true2 {
-        margin-top: 27px;
-    }
-
-    .down2 {
-        margin-right: 10px;
-        height: 50px;  
-    }
-
-    .right2 {
-        height: 50px; 
-    }
-
-    .question3 {
-        font-size: 15px;
-        width: 260px;
-        padding: 10px 10px 10px 15px;
-        text-align: center;
-    }
-
-    .direction-rgpd3 {
-        width: 360px; 
-        margin-left: 12px;
-        margin-top: 20px;
-    }
-
-    .warning-rg {
-        width: 280px;
-        margin: 0 10px 0 0;
-    }
-
-    .warning {
-        font-size: 14px;
-        text-align: center;
-    }
-
-    .contact-form {
-        width:100%;
-    }
-
-    .contact-intro {
-        width: 280px;
-        font-size: 25px;
-        margin-top: -40px;
-    }
-
-    .contact-title {
-        position: relative;
-        width:100%;
-        font-size: 13px;
-        margin-top: 30px ;
-    }
-
-    .span-form {
-        display: none;
-    }
-
-    /* .contGlobal {
-        width: 90%;
-        height: 130vh;
-        margin-left: 0.5px;
-        margin-right: 10px;
-    }
-
-    .panneauGauche {
-        width: 320px;
-    } */
-
-    .contGlobal {
-        flex-direction: column;
-        min-height: 100vh;
-        width: 100vw!important;
-        align-items: center;
-    }
-    .panneauDroit {
-        display: none;
-    }
-    .panneauGauche {
-        width: 70vw!important;
-        padding: 25px;
-    }
-}
-
-    .formBloc h6 {
-        font-size: 25px;
-        font-weight: 500;
-        margin-bottom: 20px;
-    }
-
-    .formBloc .formGroup {
-        margin-bottom: 20px;
-    }
-
-    .formBloc .formGroup input {
-        width: 300px;
-    }
-
-    .field {
-        width: 270px;
-        padding: 0;
-        font-size: 12px;
-        height: 50px;
-    }
-
-    .area {
-        
-    }
-
-    .formBloc .formGroup .buttonSub {
-        display: block;
-        width: 100%;
-        padding: 10px 10px;
-        font-size: 14px;
-        font-weight: 100;
-        cursor: pointer;
-    }
-
-    .sucess-form1 {
-        flex-direction: column;
-        height: 60px;
-        align-items: center;
-        width: 100%;
-
-    }
-
-    .sucess-form2 {
-        flex-direction: column;
-        height: 60px;
-        align-items: center;
-        width: 100%;
-    }
-
-    .success-message {
-        font-size: 12.5px;
-    }
-
-    .img-success {
-        width: 24px;
-        height: 24px;
-        margin-left: 110px;
-    }
-
-    .icon3d {
-        display: none;
-    }
-
-    .download-container {
-        width: 80%;
-        flex-direction: column;
-    }
-
-    .left-download {
-        width: 300px;
-        margin-top: 10px;
-    }
-
-    .fiche-intro {
-        width: 280px;
-        font-size: 25px;
-        text-align: center;
-        margin-left: -12px;
-    }
-
-    .fiche-intro2 {
-        font-size: 13px;
-    }
-
-    .cover-acces {
-        width: 90%;
-        margin-left: -8px;
-        margin-bottom: 50px;
-        padding: 8px;
-    } 
-
-    .acces-image {
-        width: 18px;
-        height: 35px;
-    }
-    
-    .script-acces {
-        font-size: 12px;
-    }
-
-    .access-reserved {
-        font-size: 13px;
-    }
-
-    .fiche-title {
-        width: 200px;
-        margin-left: 70px;
-        font-weight: 300;
-        font-size: 13px;
-        line-height: 18px;
-    }
-
-    .right-download {
-        width: 111%;
-        margin-left: -13px;
-    }
-
-    .download-square {
-        width: 100%;
-        margin-bottom: 5px;
-    }
-
-    .download-design {
-        display:none;
-    }
-
-    .number-file {
-        font-size: 10px;
-        padding: 4px 10px;
-    }
-
-    .download-button {
-        padding: 4px 8px;
-    }
-
-    .download-button img {
-        width: 20px;
-        height: 18px;
-    }
-
-    .title-file {
-        font-size: 13px;
-        font-weight: 200;
-        text-align: justify;
-    }
-
-    .faq-container {
-        width: 100%;
-    }
-    
-    .faq-title {
-        width: 230px;
-        margin-left: 45px;
-        margin-top: 30px;
-        font-size: 25px;
-        
-    }
-
-    .faq-intro {
-        width: 80%;
-        margin-left: 30px;
-        margin-top: 20px;
-    }
-
-    .faq-content {
-        width: 100%;
-        grid-template-columns: 1fr;
-        gap: 30px 30px;
-    }
-
-    .faq-box {
-        width: 280px;
-    }
-
-    .stay {
-        margin-left: 40px;
-    }
-
-    #newsletter-container {
-        flex-direction: column;
-        width: 100%; 
-        margin-top: -500px; 
-    }
-
-    #img-newsletter {
-        height: 600px;
-    }
-
-    .newsleft {
-        width: 300px;
-    }
-
-    .news-title {
-        width: 100%;
-        font-size: 25px;
-        margin-left: 100px;
-    }
-
-    .news-intro {
-        width: 70%;
-        font-size: 15px;
-        margin-left: 80px;
-        text-align: center;
-        margin-bottom: 20px;
-    }
-
-    .newsright {
-        width: 300px;
-    }
-
-    #news-form {
-        width: 94%;
-        height: 230px;
-        margin-left: 10px;
-    }
-
-    #field-news {
-        height: 40px;
-        margin-bottom: -10px;
-    }
-
-    .subscribe1 {
-        width: 86%;
-        margin-left: 20px;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-
-    .contact-news {
-        width: 280px;
-        text-align: center;
-        margin-left: 10px; 
-    }
-
-    .bloc-form-news {
-        flex-direction: column;
-    }
-
-    #field-news {
-        width: 260px;   
-    }
-
-    .footer-container {
-        width: 100%;
-        height: 140vh;
-        grid-template-columns: 1fr;
-    }
-
-    .mjj-profil {
-        justify-content: center; 
-        margin-top: 10px;
-    }
-
-    .mjj-avatar2 {
-        margin-top: 10px;  
-    }
-
-    .mjj-name {
-        font-size: 13px;
-    }
-
-    .founder {
-        font-size: 13px;
-    }
-
-    .passion {
-        font-size: 13px;
-    }
-
-    .lawyer {
-        font-size: 13px;
-    }
-
-    .logo__majelink-2 {
-        margin-left: 40px;
-    }
-
-    .footer-title__presta {
-        font-size: 13px;
-    }
-
-    .footer-title__contact {
-        font-size: 13px;
-    }
-
-    .footer-title__contact2 {
-        font-size: 13px;
-    }
-
-    .mentions-legales {
-        font-size: 13px;
-    }
-
-    .politique-donnees {
-        font-size: 13px;
-    }
-
-    .cgv {
-        font-size: 13px;
-    }
-
-    .doc {
-        margin-left: 100px; 
-    }
-
-    .website {
-        width: 150px;
-        font-size: 12px; 
-    }
-
-    .rights {
-        font-size: 12px;  
-    }
-
-
-    /* navigation menu */
-    .navigation__logo {
-        position: absolute;
-        left: -45px;
-    }
-    .logo__majelink-1 {
-        margin-top: 0px;
-        width: 40px;
-        height: 40px; 
-    }
-
-    .right-menu {
-        display: block;
-    }
-
-    .navigation__item {
-        display: block;
-        position: absolute;
-        top: 70px;
-        right: 13px;
-        background: #fff;
-        width: 65%;
-        height:45vh;
-        opacity: 0.9;
-        padding: 10px;
-        padding-left: 12%;
-        text-align: center;
-        border-radius: 15px;
-        transform: translateX(500px);
-        transition: transform 0.5s ease-in-out;
-
-    }
-
-    .navigation__item.show{
-        transform: translateX(-20px);
-    }
-
-    .menu-link {
-        padding: 10px;
-        margin-left: 50px;
-        border-bottom: 1px solid #cccccc;
-        font-size: 17px;
-    }
-
-    .item-link {
-    color: black;
-    margin-left: -30px;
-    text-align: left;
-    }
-
-    .menu-link:last-child {
-        border-bottom: 0;
-    }
-
-    .majelink__banner {
-        font-size: 1.9rem;
-        margin-top: -20px;
-        margin-bottom: 30px;
-    }
-
-    .majelink__subject1 {
-        font-size: 1.4rem;
-        margin-bottom: 30px;
-        width: 240px;
-    }
-
-    .fleche {
-        display: none;
-    }
-
-    .sanction-rgpd {
-        grid-template-columns: 1fr 3fr;
-        box-shadow: rgba(24, 32, 79, 0.25) 0px 40px 80px, rgba(255, 255, 255, 0.3) 0px 0px 0px 0.3px inset;
-    }
-
-    .sanction-logo {
-        width: 30px;
-        height: 30px;
-    }
-
-    .button-rgpd {
-        display: none;
-    }
-
-    .sanction1 {
-        font-size: 1rem;
-    }
-
-    .sanction2 {
-        font-size: 0.84rem; 
-    }
-
-    .mjj-avatar1 {
-        width: 55px;
-        height: 35px;
-    }
-
-    .intro {
-        font-size: 14px;
-    }
-    
-    .starter {
-    margin: 0 0 80px 40px;
-
-    }
-
-    .blur__starter-cover {
-
-    }
-    
-    .price__stater-cover {
-
-    }
-
-    .price {
-        font-size: 45px;
-    }
-
-    .price-details {
-    }
-
-    .subscribe {
-        width: 169px;
-        margin-top: 40px;
-        transition: transform 0.5s ease-in-out; 
-    }
-
-    .webdev {
-        margin: 0 0 140px 40px;
-        }
-
-    .contGlobal {
-        flex-direction: column;
-        min-height: 100vh;
-        width: 100vw!important;
-        align-items: center;
-    }
-    .panneauDroit {
-        display: none;
-    }
-    .panneauGauche {
-        width: 70vw!important;
-        padding: 25px;
-    }
-
-    .formBloc h6 {
-        font-size: 25px;
-        font-weight: 500;
-        margin-bottom: 20px;
-    }
-
-    .formBloc .formGroup {
-        margin-bottom: 20px;
-    }
-
-    .formBloc .formGroup input {
-        width: 300px;
-    }
-
-    .field {
-        width: 270px;
-        padding: 0;
-        font-size: 12px;
-        height: 50px;
-    }
-
-    .area {
-        
-    }
-
-    .formBloc .formGroup .buttonSub {
-        display: block;
-        width: 100%;
-        padding: 10px 10px;
-        font-size: 14px;
-        font-weight: 100;
-        cursor: pointer;
-    }
-
-    .sucess-form1 {
-        flex-direction: column;
-        height: 60px;
-        align-items: center;
-        width: 100%;
-
-    }
-
-    .sucess-form2 {
-        flex-direction: column;
-        height: 60px;
-        align-items: center;
-        width: 100%;
-    }
-
-    .success-message {
-        font-size: 12.5px;
-    }
-
-    .img-success {
-        width: 24px;
-        height: 24px;
-        margin-left: 110px;
-    }
-
-    .icon3d {
-        display: none;
-    }
-
-    .download-container {
-        width: 80%;
-        flex-direction: column;
-    }
-
-    .left-download {
-        width: 300px;
-        margin-top: 10px;
-    }
-
-    .fiche-intro {
-        width: 280px;
-        font-size: 25px;
-        text-align: center;
-        margin-left: -12px;
-    }
-
-    .fiche-intro2 {
-        font-size: 13px;
-    }
-
-    .cover-acces {
-        width: 90%;
-        margin-left: -8px;
-        margin-bottom: 50px;
-        padding: 8px;
-    } 
-
-    .acces-image {
-        width: 18px;
-        height: 35px;
-    }
-    
-    .script-acces {
-        font-size: 12px;
-    }
-
-    .access-reserved {
-        font-size: 13px;
-    }
-
-    .fiche-title {
-        width: 200px;
-        margin-left: 70px;
-        font-weight: 300;
-        font-size: 13px;
-        line-height: 18px;
-    }
-
-    .right-download {
-        width: 111%;
-        margin-left: -13px;
-    }
-
-    .download-square {
-        width: 100%;
-        margin-bottom: 5px;
-    }
-
-    .download-design {
-        display:none;
-    }
-
-    .number-file {
-        font-size: 10px;
-        padding: 4px 10px;
-    }
-
-    .download-button {
-        padding: 4px 8px;
-    }
-
-    .download-button img {
-        width: 20px;
-        height: 18px;
-    }
-
-    .title-file {
-        font-size: 13px;
-        font-weight: 200;
-        text-align: justify;
-    }
-
-    .faq-container {
-        width: 100%;
-    }
-    
-    .faq-title {
-        width: 230px;
-        margin-left: 45px;
-        margin-top: 30px;
-        font-size: 25px;
-        
-    }
-
-    .faq-intro {
-        width: 80%;
-        margin-left: 30px;
-        margin-top: 20px;
-    }
-
-    .faq-content {
-        width: 100%;
-        grid-template-columns: 1fr;
-        gap: 30px 30px;
-    }
-
-    .faq-box {
-        width: 280px;
-    }
-
-    .stay {
-        margin-left: 40px;
-    }
-
-    #newsletter-container {
-        flex-direction: column;
-        width: 100%; 
-        margin-top: -500px; 
-    }
-
-    #img-newsletter {
-        height: 600px;
-    }
-
-    .newsleft {
-        width: 300px;
-    }
-
-    .news-title {
-        width: 100%;
-        font-size: 25px;
-        margin-left: 100px;
-    }
-
-    .news-intro {
-        width: 70%;
-        font-size: 15px;
-        margin-left: 80px;
-        text-align: center;
-        margin-bottom: 20px;
-    }
-
-    .newsright {
-        width: 300px;
-    }
-
-    #news-form {
-        width: 94%;
-        height: 230px;
-        margin-left: 10px;
-    }
-
-    #field-news {
-        height: 40px;
-        margin-bottom: -10px;
-    }
-
-    .subscribe1 {
-        width: 86%;
-        margin-left: 20px;
-        margin-top: 20px;
-        margin-bottom: 20px;
-    }
-
-    .contact-news {
-        width: 280px;
-        text-align: center;
-        margin-left: 10px; 
-    }
-
-    .bloc-form-news {
-        flex-direction: column;
-    }
-
-    #field-news {
-        width: 260px;   
-    }
-
-    .footer-container {
-        width: 100%;
-        height: 140vh;
-        grid-template-columns: 1fr;
-    }
-
-    .mjj-profil {
-        justify-content: center; 
-        margin-top: 10px;
-    }
-
-    .mjj-avatar2 {
-        margin-top: 10px;  
-    }
-
-    .mjj-name {
-        font-size: 13px;
-    }
-
-    .founder {
-        font-size: 13px;
-    }
-
-    .passion {
-        font-size: 13px;
-    }
-
-    .lawyer {
-        font-size: 13px;
-    }
-
-    .logo__majelink-2 {
-        margin-left: 40px;
-    }
-
-    .footer-title__presta {
-        font-size: 13px;
-    }
-
-    .footer-title__contact {
-        font-size: 13px;
-    }
-
-    .footer-title__contact2 {
-        font-size: 13px;
-    }
-
-    .mentions-legales {
-        font-size: 13px;
-    }
-
-    .politique-donnees {
-        font-size: 13px;
-    }
-
-    .cgv {
-        font-size: 13px;
-    }
-
-    .doc {
-        margin-left: 100px; 
-    }
-
-    .website {
-        width: 150px;
-        font-size: 12px; 
-    }
-
-    .rights {
-        font-size: 12px;  
-    }
-
-
-    /* navigation menu */
-    .navigation__logo {
-        position: absolute;
-        left: -45px;
-    }
-    .logo__majelink-1 {
-        margin-top: 0px;
-        width: 40px;
-        height: 40px; 
-    }
-
-    .right-menu {
-        display: block;
-    }
-
-    .navigation__item {
-        display: block;
-        position: absolute;
-        top: 70px;
-        right: 13px;
-        background: #fff;
-        width: 65%;
-        height:45vh;
-        opacity: 0.9;
-        padding: 10px;
-        padding-left: 12%;
-        text-align: center;
-        border-radius: 15px;
-        transform: translateX(500px);
-        transition: transform 0.5s ease-in-out;
-
-    }
-
-    .navigation__item.show{
-        transform: translateX(-20px);
-    }
-
-    .menu-link {
-        padding: 10px;
-        margin-left: 50px;
-        border-bottom: 1px solid #cccccc;
-        font-size: 17px;
-    }
-
-    .item-link {
-    color: black;
-    margin-left: -30px;
-    text-align: left;
-    }
-
-    .menu-link:last-child {
-        border-bottom: 0;
-    }
-
-    .majelink__banner {
-        font-size: 1.9rem;
-        margin-top: -20px;
-        margin-bottom: 30px;
-    }
-
-    .majelink__subject1 {
-        font-size: 1.4rem;
-        margin-bottom: 30px;
-        width: 240px;
-    }
-
-    .fleche {
-        display: none;
-    }
-
-    .sanction-rgpd {
-        grid-template-columns: 1fr 3fr;
-        box-shadow: rgba(24, 32, 79, 0.25) 0px 40px 80px, rgba(255, 255, 255, 0.3) 0px 0px 0px 0.3px inset;
-    }
-
-    .sanction-logo {
-        width: 30px;
-        height: 30px;
-    }
-
-    .button-rgpd {
-        display: none;
-    }
-
-    .sanction1 {
-        font-size: 1rem;
-    }
-
-    .sanction2 {
-        font-size: 0.84rem; 
-    }
-
-    .mjj-avatar1 {
-        width: 55px;
-        height: 35px;
-    }
-
-    .intro {
-        font-size: 14px;
-    }
-    
-    .starter {
-    margin: 0 0 80px 40px;
-
-    }
-
-    .blur__starter-cover {
-
-    }
-    
-    .price__stater-cover {
-
-    }
-
-    .price {
-        font-size: 45px;
-    }
-
-    .price-details {
-    }
-
-    .subscribe {
-        width: 169px;
-        margin-top: 40px;
-        transition: transform 0.5s ease-in-out; 
-    }
-
-    .webdev {
-        margin: 0 0 140px 40px;
-        }
-
-
-

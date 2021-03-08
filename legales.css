@@ -146,6 +146,12 @@ body {
     cursor: pointer;
 }
 
+.rgdp__majelink-logo2 {
+    width: 30px;
+    height: 30px;
+    padding-right: 9px;
+}
+
 .legales {
     width: 800px;
     margin: auto;
@@ -153,7 +159,7 @@ body {
     gap: 80px;
 }
 
-.mentions-legales {
+.mentions-legales1 {
     position: relative;
     top: 180px;
     display: grid;
@@ -188,6 +194,8 @@ body {
 .detail-mention {
     grid-column-start: 1;
     grid-column-end: -1;
+    height: 60vh;
+    overflow-y: scroll;
 }
 
 .detail-m {
@@ -235,6 +243,8 @@ body {
 .detail-politique {
     grid-column-start: 1;
     grid-column-end: -1;
+    height: 60vh;
+    overflow-y: scroll;
 }
 
 .detail-p {
@@ -275,6 +285,8 @@ body {
 .detail-condition {
     grid-column-start: 1;
     grid-column-end: -1;
+    height: 60vh;
+    overflow-y: scroll;
 }
 
 .detail-c {
@@ -287,12 +299,15 @@ body {
 .footer-container {
     position: relative;
     top: 140px;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 2fr 0.5fr;
     justify-content: center;
     align-items: center;
+    gap: 10px;
     background: rgb(30, 19, 87);
-    width: 100%;
+    /* width: 100%; */
     height: 350px;
+    margin-top: 150px;
 }
 
 /* ----------- FOOTER1 ---------- */
@@ -307,8 +322,8 @@ body {
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    width: 30%;
-    letter-spacing: 1px;
+    width: 100%;
+    /* letter-spacing: 1px; */
     /* height: 50px; */
 }
 
@@ -328,18 +343,19 @@ body {
 .jj-title {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: start;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
     padding-bottom: 7px;
 }
 
 .mjj-name {
     font-style: normal;
     font-size: 15px;
-    line-height: 18px;
+    /* line-height: 18px; */
     text-align: center;
-    color: white;
-    font-weight: 400;
+    color: whitesmoke;
+    font-weight: 100;
     margin: 17px 0 10px 0;
 }
 
@@ -348,7 +364,7 @@ body {
     font-size: 15px;
     line-height: 18px;
     text-align: center;
-    color: white;
+    color: rgb(184, 184, 197);
     font-weight: 100;
     margin-bottom: 3px;
 }
@@ -358,7 +374,7 @@ body {
     font-size: 13px;
     line-height: 18px;
     text-align: center;
-    color: white;
+    color: rgb(184, 184, 197);
     font-weight: 100;
     margin-bottom: 3px;
 }
@@ -368,7 +384,7 @@ body {
     font-size: 13px;
     line-height: 18px;
     text-align: center;
-    color: white;
+    color: rgb(184, 184, 197);
     font-weight: 100;
     margin: 0;
 }
@@ -376,28 +392,29 @@ body {
 .footer-nav {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: start;
-    width: 25%;
+    width: 60%;
     letter-spacing: 0.5px;
+    margin-left: 70px;
 }
 
 .logo__majelink-2 {
-    width: 50px;
+    width: 30px;
     height: 30px; 
-    margin-left: -10px;
+    margin-top: 30px;
     margin-bottom: 15px; 
 }
 
 
 
-.footer-prestation {
+/* .footer-prestation {
     diplay: flex;
 }
 
 .footer-link {
     diplay: flex;
-}
+} */
 
 .footer-title__presta {
     margin:0;
@@ -422,6 +439,12 @@ body {
     margin-bottom: 7px;
     /* margin-top: 10px; */
 }
+.menu-link3 {
+    display: flex;
+    text-decoration: none;
+    align-items: center;
+    margin-bottom: 7px; 
+}
 
 .footer-title__contact {
     margin: 0;
@@ -439,13 +462,26 @@ body {
     color: whitesmoke;
 }
 
+.footer-title__contact2 {
+    margin: 0;
+    font-style: normal;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    color: rgb(184, 184, 197);
+    font-weight: lighter;
+    transition-property: color;
+    transition-duration: 0.3s;
+}
+
 .majelink-legal {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: flex-start;
-    width: 25%;
+    /* width: 75%; */
     letter-spacing: 0.5px;
+    margin-left: 100px;
 }
 
 .doc {
@@ -514,6 +550,54 @@ body {
     align-items: center;
     width: 200px;
     width: 20%;
+    margin-left: 40px;
+}
+
+.subscribe:hover {
+    transform: translateY(-3px);
+    opacity: 1;
+}
+
+.cover-subscrive {
+    background: linear-gradient(209.21deg, rgb(159, 127, 229) 13.57%, rgb(78, 153, 227) 98.38%);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 0px 0.5px inset;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+}
+.circle-cover {
+    background: rgba(68, 66, 178, 0.1);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 0px 0.5px inset;
+    width: 40px;
+    height: 40px;
+    /* margin-top: 30px; */
+    border-radius: 50%;
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    transition: transform 0.5s ease-in-out;
+}
+
+.link-footer {
+    margin: 0;
+    padding: 0;
+}
+
+.circle-cover:hover {
+    transform: translateY(-3px);
+}
+
+.subscribe-logo {
+    width: 20px;
+    height: 20px;
+    margin: 0px;
 }
 
 /* ----------- FIN FOOTER1 ---------- */
@@ -525,8 +609,8 @@ body {
     left: 0;
     display: grid;
     height: 70px;
-    grid-template-columns: 1fr 2fr;
-    justify-content: space-around;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
     align-items: center;
     padding-right: 20px;
     background-color: rgb(35, 37, 74)
@@ -539,7 +623,8 @@ body {
     text-align: center;
     color: rgb(184, 184, 197);
     font-weight: lighter;
-    padding-right: 50px;
+    justify-content: end;
+    width: 42%;
 }
 
 .rights {
@@ -550,7 +635,8 @@ body {
     color: rgb(184, 184, 197);
     font-weight: lighter;
     font-style: italic;
-    margin-right: 20px;
+    /* margin-right: 20px; */
+    width: 85%;
 }
 
 .love {
@@ -560,3 +646,11 @@ body {
 }
 
 /* FIN FOOTER 2 */
+
+/* ---------- MEDIA QUERIES */
+
+@media screen and (min-width: 1281px) {
+    .rights {
+        padding-right: 300px;
+    }
+}
